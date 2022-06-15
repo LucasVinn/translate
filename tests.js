@@ -20,7 +20,7 @@ function languageTransferDeutsch() {
 
 }
 
-/*
+
 function languageTransfer() {
 
     const Deutsch = document.getElementById("optionDeutsch")
