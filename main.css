@@ -1,0 +1,38 @@
+:root {
+
+    --background-page: #121214;
+    --background-elements: #202024;
+    --text-color: #ffffff;
+}
+
+body {
+
+    background-color: var(--background-page);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+
+}
+
+
+/* ---------------------------------------------- */
+
+.language-select {
+
+    background-color: var(--background-elements);
+    color: var(--text-color);
+    border: solid var(--background-elements);
+    border-radius: .3rem;
+
+    font-family: 'Roboto';
+
+    width: 6rem;
+    height: 3rem;
+
+    margin-top: .5rem;
+    margin-left: .5rem;
+
+}
+
+#header {
+    margin-left: .5rem;
+}
