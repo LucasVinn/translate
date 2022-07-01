@@ -5,6 +5,7 @@ function languageTransfer() {
     if (document.getElementById("optionEnglish") === English) {
         const phraseEnglish = 'Moiayei is just an illusion in our world'
         document.getElementById("header").innerHTML= phraseEnglish;
+        
     }
 
 }
@@ -16,6 +17,7 @@ function languageTransferDeutsch() {
     if (document.getElementById("optionDeutsch") === Deutsch) {
         const phraseDeutsch = 'Moiayei ist nur eine Illusion in unserer Welt'
         document.getElementById("header").innerHTML= phraseDeutsch
+        
     }
 
 }
@@ -46,3 +48,6 @@ function englishTransfer() {
 
 const console = 'moaiye'
 console.log(console)
+
+const gm = 'good morning'
+console.log(gm)
